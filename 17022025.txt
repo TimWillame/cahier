@@ -1,0 +1,17 @@
+restructuration des class pour intégrer nouveauté (je voulais rajouter un drag and drop)
+-> gestion des clics pour chaque cases et chessGUI séparés
+
+Remarque problème quand plein écran:
+-> correction dans chessGui pour gérer ça (méthode resizeEvent), pas concluant/supprimé.
+	A creuser de faire un QVbox pour mettre le board dedans et d'utiliser SetAspectRatio peut-être
+
+Ajout d'un historique des coups joués à droite
+-> avec SAN de python-chess
+
+Gérer l'exportation de PGN (Portable game notation) (import à faire aussi peut-être?)
+
+Ajout de flêche rouge pour les menaces
+-> Seulement une méthode pour afficher les menaces
+Peut-être faut il faire une classe perso pour le widget du board et faire des méthodes draw_arrow etc dedans?
+
+
